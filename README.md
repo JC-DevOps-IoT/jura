@@ -1,5 +1,7 @@
 # ☕ Jura ESPHome Components
 
+# This fork was created to address the boot loop issue in the Jura E6, which occurs because the device does not respond during startup. Pull requests and issues are currently open.
+
 **Control and monitor your Jura Coffee Machine and CoolControl milk cooler directly from ESPHome and Home Assistant.**
 
 > ⚠️ *Use at your own risk.*  
