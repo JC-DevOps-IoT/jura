@@ -143,7 +143,7 @@ class Jura : public PollingComponent, public uart::UARTDevice {
     state_ = JuraState::IDLE;
     rx_buffer_.clear();
     rx_bit_ = 0;
-    rx_inbyte = 0;
+    rx_inbyte_ = 0;
     send_command_(cmd);
     uint32_t start = millis();
     while (millis() - start < 3000) {
